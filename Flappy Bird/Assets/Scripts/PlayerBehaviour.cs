@@ -2,15 +2,24 @@ using UnityEngine;
 
 public class PlayerBehaviour : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        print("Hello FECAP");
-    }
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField] private float jumpForce = 1;
+
+    private Rigidbody2D rigidbody;
+
+    private void Awake()
     {
+        rigidbody = GetComponent<Rigidbody2D>();
         
     }
+
+    private void Update()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            rigidbody.linearVelocity += Vector2.up * jumpForce;
+        }
+        
+    }
+
 }
