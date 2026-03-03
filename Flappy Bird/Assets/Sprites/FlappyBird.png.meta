@@ -638,34 +638,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FlappyBird_10
-      rect:
-        serializedVersion: 2
-        x: 294
-        y: 431
-        width: 34
-        height: 23
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6514e665c239265f0800000000000000
-      internalID: -764887168061652650
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: FlappyBird_11
       rect:
         serializedVersion: 2
-        x: 328
+        x: 292
         y: 427
-        width: 60
+        width: 96
         height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2054,7 +2032,7 @@ TextureImporter:
         width: 57
         height: 54
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -2127,6 +2105,7 @@ TextureImporter:
       FlappyBird_49: 2376586862049626238
       FlappyBird_5: -8195451931534045822
       FlappyBird_50: 5220646219602870729
+      FlappyBird_51: 5220690479671099623
       FlappyBird_52: 545217861179861586
       FlappyBird_55: 6190510666033628325
       FlappyBird_56: -8304487030767744534
