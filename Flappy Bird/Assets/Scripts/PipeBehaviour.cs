@@ -2,18 +2,14 @@ using UnityEngine;
 
 public class PipeBehaviour : MonoBehaviour
 {
-  [SerializeField] private float moveSpeed = 2f;
-  [SerializeField] private float initialPos = 0.32f;
-  [SerializeField] private float endPos = -1.19f;
+  [SerializeField] private float moveSpeed = 1f;
+  [SerializeField] private float initialPos = 0.48f;
+  [SerializeField] private float endPos = -1.27f;
 
   private void Update()
   {
     transform.Translate(Vector2.left * moveSpeed * Time.deltaTime);
-
-    if (transform.position.x < endPos)
-    {
-      transform.position = new Vector3(initialPos, transform.position.y, transform.position.z);
-    }
+    
 
   }
 
